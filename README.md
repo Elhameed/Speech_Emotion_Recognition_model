@@ -15,7 +15,7 @@ This project proposes the development of a machine learning model for Speech Emo
 
 ## Dataset
 
-The project utilizes the RAVDESS dataset, which comprises 1440 speech audio-only files (16-bit, 48kHz .wav). This dataset features a range of emotions, including calm, happy, sad, angry, fearful, surprised, and disgust, produced by 24 professional actors (12 male and 12 female). Each audio file is encoded with detailed information regarding modality, vocal channel, emotion, emotional intensity, statement, repetition, and actor. The dataset is instrumental in training the SER model, facilitating a nuanced understanding of emotional expression in speech. For training the model, only four actors (Actor_01 to Actor_04) were selected. This decision was made to:
+The project utilizes the RAVDESS dataset, which comprises 1440 speech audio-only files (16-bit, 48kHz .wav). This dataset features a range of emotions, including calm, happy, sad, angry, fearful, surprised, and disgust, produced by 24 professional actors (12 male and 12 female). The dataset is instrumental in training the SER model, facilitating a nuanced understanding of emotional expression in speech. For training the model, only four actors (Actor_01 to Actor_04) were selected. This decision was made to:
 
 - Simplify the training process and reduce the complexity of the model.
 - Focus on a smaller, more manageable subset of data while still providing a diverse range of emotional expressions.
