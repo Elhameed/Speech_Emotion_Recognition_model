@@ -24,3 +24,33 @@ The project utilizes the RAVDESS dataset, which comprises 1440 speech audio-only
 Link to the RAVDESS dataset: https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio?resource=download
 
 ## Key Findings and Discussion
+
+### Model Comparison
+
+This project developed two models for Speech Emotion Recognition (SER): a **vanilla model** and an **optimized model**. The purpose of this comparison was to evaluate the impact of optimizations on model performance.
+
+#### Vanilla Model (No Optimization)
+
+Evaluation Results:
+
+Test Loss: 1.5526
+Test Accuracy: 0.6667
+
+### Optimized Model 
+
+Evaluation Results:
+
+Test Loss: 1.4849
+Test Accuracy: 0.7778
+
+### Discussion
+
+The results from the evaluation indicate a significant improvement in performance metrics when transitioning from the vanilla model to the optimized model. The optimized model achieved an accuracy of **77.78%**, compared to **66.67%** for the vanilla model.
+
+Key observations include:
+
+- **Regularization:** The use of L2 regularization in the optimized model helped reduce overfitting, resulting in better generalization on the test dataset.
+- **Dropout Layer:** Implementing a dropout layer significantly improved the model's robustness by preventing overfitting during training.
+- **Overall Performance:** The optimized model performed better in both loss and accuracy metrics, demonstrating that the applied optimization techniques effectively enhanced the model's ability to classify emotional states from speech.
+
+Further analysis of the confusion matrices reveals that the optimized model managed to classify more emotional states correctly compared to the vanilla model, which misclassified many instances, especially in the "Happy" and "Sad" categories.
