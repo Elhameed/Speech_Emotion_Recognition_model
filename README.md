@@ -100,8 +100,6 @@ These optimization techniques, along with careful parameter selection and tuning
 1. Execute the cells sequentially to preprocess the data, train the models, and evaluate their performance.
 2. Monitor the output for training progress and evaluation metrics.
 
-### Instructions for Loading Saved Models
-
 To load the trained models, you can use the following code snippets in your notebook:
 
 ### Loading the Vanilla Model
