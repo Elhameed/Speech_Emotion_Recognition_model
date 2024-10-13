@@ -34,14 +34,20 @@ This project developed two models for Speech Emotion Recognition (SER): a **vani
 Evaluation Results:
 
 Test Loss: 1.5526
+
 Test Accuracy: 0.6667
+
+![vanilla Plot](https://github.com/Elhameed/zero_day/blob/master/Screenshot%20from%202024-10-13%2021-51-39.png)
 
 ### Optimized Model 
 
 Evaluation Results:
 
 Test Loss: 1.4849
+
 Test Accuracy: 0.7778
+
+![Optimized Plot](https://github.com/Elhameed/zero_day/blob/master/Screenshot%20from%202024-10-13%2021-52-02.png)
 
 ### Discussion
 
